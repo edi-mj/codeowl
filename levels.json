@@ -8,7 +8,8 @@
       "starLimits": { "3star": 3, "2star": 5 },
       "hints": {
         "default": "Isi variabel 'langkah' dengan tipe data integer",
-        "missed_goal": "Isi variabel sesuai petunjuk"
+        "missed_goal": "Isi variabel sesuai petunjuk",
+        "how_to_play": "Isi variabel 'langkah' dengan tipe data integer"
       },
       "initialCommand": "langkah =  \nplayer.step(langkah)",
 
@@ -2333,7 +2334,7 @@
     {
       "id": 8,
       "name": "Gerbang Logika",
-      "initialCommand": "kunci = \nif kunci == \"buka\":\n   gerbangTerbuka = True\nplayer.step(4) \nplayer.turn(\"left\")\nplayer.step(18)",
+      "initialCommand": "kunci = \nif kunci == \"buka\":\n   gerbangTerbuka = True\nplayer.step(4) \nplayer.turn(\"left\")\nplayer.step(17)",
       "gridWidth": 10,
       "gridHeight": 10,
       "starLimits": { "3star": 3, "2star": 5 },
