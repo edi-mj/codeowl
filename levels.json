@@ -7,9 +7,9 @@
       "gridHeight": 10,
       "starLimits": { "3star": 3, "2star": 5 },
       "hints": {
-        "default": "Isi variabel 'langkah' dengan tipe data integer",
+        "default": "isi variabel dengan Arah. Arah selain Depan, Belakang, Atas dan Bawah.",
         "missed_goal": "Isi variabel sesuai petunjuk",
-        "how_to_play": "Isi variabel 'langkah' dengan tipe data integer"
+        "how_to_play": "Isi variabel dari ‘Jembatan’"
       },
       "initialCommand": "langkah =  \nplayer.step(langkah)",
 
@@ -65,7 +65,7 @@
         "default": "Salah satu rintangan memiliki nilai 50",
         "default2": "Salah satu rintangan memiliki nilai 100",
         "missed_goal": "Gunakan Command yang ada",
-        "how_to_play": "(....)"
+        "how_to_play": "Kerjakan soal matematika berikut untuk mendapatkan jawaban (12 × 8) − 36 + 10 = ..."
       },
       "initialCommand": "player.step(4)\nplayer.turn(\"left\")\nplayer.step(1)\nJembatan = \nplayer.step(10)\nplayer.turn(\"left\")\nplayer.step(17)\nplayer.turn(\"left\")\nplayer.step(13)",
 
@@ -626,8 +626,9 @@
       "gridHeight": 23,
       "starLimits": { "3star": 10, "2star": 15 },
       "hints": {
-        "default": "kata sandi = \"Ajaib\"",
-        "missed_goal": "Kata sandi salah atau jalanmu buntu!"
+        "default": "kSusun kata sandi yang terdiri beberapa huruf berikut: b, a, j, i, A",
+        "missed_goal": "Kata sandi salah atau jalanmu buntu!",
+        "how_to_play": "Susun kata sandi yang terdiri beberapa huruf berikut: b, a, j, i, A"
       },
       "initialCommand": "kata_sandi = \n\nplayer.step(8)\nplayer.turn(\"right\")\nplayer.step(3)\nplayer.step(6)\nplayer.turn(\"right\")\nplayer.step(11)",
       "objects": [
@@ -811,8 +812,9 @@
       "gridHeight": 10,
       "starLimits": { "3star": 3, "2star": 5 },
       "hints": {
-        "default": "Ketik player.step 7 untuk maju",
-        "missed_goal": "Gunakan Command yang ada"
+        "default": "Ubah nilai nya saja(True/False ,right/left, player.step()), Jangan ubah yang lain",
+        "missed_goal": "Gunakan Command yang ada",
+        "how_to_play": "Ubah nilai nya saja(True/False ,right/left, player.step()), Jangan ubah yang lain"
       },
       "initialCommand": "jembatan_aktif = False\n\n# Atur jembatan_aktif = True sebelum melangkah\n\n player.step(13)",
 
@@ -1079,8 +1081,8 @@
       "gridHeight": 10,
       "starLimits": { "3star": 3, "2star": 5 },
       "hints": {
-        "how_to_play": "Isi setiap variabel dengan nilai yang sesuai untuk menyelesaikan level ini.",
-        "default": "Untuk variabel Batu antonim dari kata utuh. Untuk variabel Jembatan adalah hasil dari 10x5. Untuk variabel Pagar pilihlah antara False dan True",
+        "how_to_play": "Isi setiap variabel dengan nilai yang sesuai dengan nilai yang sesuai untuk menyelesaikan level ini.",
+        "default": "Untuk variabel Batu antonim dari kata utuh, untuk variabel Jembatan adalah hasil dari 10x5 = , dan untuk variabel Pagar pilihlah salah satu dari nilai boolean.",
         "missed_goal": "Gunakan Command yang ada"
       },
       "initialCommand": "player.step(6)\nplayer.turn(\"right\")\nBatu = \"\"\nplayer.step(7)\nplayer.turn(\"left\")\nJembatan = \nplayer.step(7)\nplayer.turn(\"right\")\nPagar = \nplayer.step(10)\nplayer.turn(\"right\")\nplayer.step(14)",
@@ -1648,6 +1650,7 @@
       "gridHeight": 10,
       "starLimits": { "3star": 3, "2star": 5 },
       "hints": {
+        "how_to_play": "Isi Nilai variabel dari ‘Penghalang’",
         "default": "Hint: Isi vaiabel counter pertama merupakan hasil dari 1+1, counter kedua hasil dari 50-46, dan counter ketiga hasil dari 3x2.",
         "missed_goal": "Gunakan Command yang ada"
       },
@@ -1802,6 +1805,7 @@
       "gridHeight": 10,
       "starLimits": { "3star": 3, "2star": 5 },
       "hints": {
+        "how_to_play": "Identifikasi Tipe Data, Apakah benar atau tidak? Perbaiki yang tidak benar",
         "default": "Tidak dapat melewati Penghalang? Bisa jadi Deklarasi variabel belum benar. Cek tipe data Energy (Integer), Penulisan Nama (String), dan nilainya System (True/False)!",
         "missed_goal": "Gunakan Command yang ada"
       },
@@ -2339,7 +2343,8 @@
       "gridHeight": 10,
       "starLimits": { "3star": 3, "2star": 5 },
       "hints": {
-        "default": "kunci = \"buka\"",
+        "how_to_play": "pemain harus membuka gerbang yang menghalangi jalan.. ",
+        "default": "\"buka\"",
         "missed_goal": "kunci salah atau jalanmu buntu!"
       },
       "objects": [
@@ -2519,7 +2524,8 @@
       "gridHeight": 10,
       "starLimits": { "3star": 3, "2star": 5 },
       "hints": {
-        "default": "pilih kanan atau kiri untuk menyeberangi jembatan yang benar",
+        "how_to_play": "Isi variabel dari ‘Jembatan’",
+        "default": "isi variabel dengan Arah. Arah selain Depan, Belakang, Atas dan Bawah.",
         "missed_goal": "Gunakan Command yang ada"
       },
       "initialCommand": "Jembatan = \"\"\n\nif Jembatan == \"kiri\":\n    player.turn(\"left\")\n    player.step(5)\n    player.turn(\"right\")\n    player.step(12)\nelse:\n    player.turn(\"right\")\n    player.step(5)\n    player.turn(\"left\")\n    player.step(13)",
@@ -2624,6 +2630,7 @@
       "gridHeight": 10,
       "starLimits": { "3star": 3, "2star": 5 },
       "hints": {
+        "default": "Alpha, Beta",
         "how_to_play": "Untuk melewati level ini dibutuhkan dua Beacon. Beacon Alpha akan membuka jembatan pertama, sedangkan Beacon Beta membuka jembatan selanjutnya. Pastikan kedua Beacon diatur dengan tepat sebelum burung hantu bergerak jauh, karena rutenya panjang dan banyak tikungan"
       },
       "initialCommand": "Beacon1 = \"\"\nBeacon2 = \"\"\n\nif Beacon1 == \"Alpha\":\n Jembatan1_Terbuka = True\n\nif Beacon2 == \"Beta\":\n Jembatan2_Terbuka = True\n\nplayer.step(4)\nplayer.turn(\"left\")\nplayer.step(6)\nplayer.turn(\"right\")\nplayer.step(4)\nplayer.turn(\"left\")\nplayer.step(2)\nplayer.turn(\"right\")\nplayer.turn(\"right\")\nplayer.step(11)\nplayer.turn(\"left\")\nplayer.step(8)\nplayer.turn(\"left\")\nplayer.step(7)",
@@ -3201,6 +3208,7 @@
       "gridHeight": 10,
       "starLimits": { "3star": 3, "2star": 5 },
       "hints": {
+        "how_to_play": "Ubah nilai nya saja(True/False ,right/left, player.step()), Jangan ubah yang lain",
         "default": "Ubah nilai nya saja(True/False ,right/left, player.step()), Jangan ubah yang lain",
         "missed_goal": "Gunakan Command yang ada"
       },
@@ -7401,11 +7409,11 @@
         "2star": 5
       },
       "hints": {
-        "how_to_play": "",
+        "how_to_play": "Isi Value Sensor dengan integer 100 Kalo tidak 100 Player Tidak Akan Jalan. \nSelesaikan lah  soal ini   untuk  membuka pagar 1,2,dan3 \npagar 1= (10-3x3=?) \npagar2=(4+4:2=?) \npagar 3=(5x3:3=?)",
         "default": "Isi Value Sensor dengan integer 100 Kalo tidak 100 Player Tidak Akan Jalan. \nSelesaikan lah  soal ini   untuk  membuka pagar 1,2,dan3 \npagar 1= (10-3x3=?) \npagar2=(4+4:2=?) \npagar 3=(5x3:3=?)",
         "missed_goal": "Gunakan Command yang ada"
       },
-      "initialCommand": "Energy = 100\n\nName = \"Owl\"\n\nSystem = False\n\nsensor = ?\n\nPagar1 = ?\n\nPagar2 = ?\n\nPagar3 = ?\n\nif sensor == 100:\n    player.turn(\"right\")\n    player.step(14)\n    player.turn(\"left\")\n    player.step(3)\n    player.turn(\"right\")\n    player.step(5) \nelse:\n    player.step(5)\n",
+      "initialCommand": "sensor = ?\n\nPagar1 = ?\n\nPagar2 = ?\n\nPagar3 = ?\n\nif sensor == 100:\n    player.turn(\"right\")\n    player.step(14)\n    player.turn(\"left\")\n    player.step(3)\n    player.turn(\"right\")\n    player.step(5) \nelse:\n    player.step(5)\n",
       "objects": [
         {
           "type": "Player",
@@ -9940,9 +9948,9 @@
       "gridHeight": 10,
       "starLimits": { "3star": 3, "2star": 5 },
       "hints": {
-        "default": "ada 3 warna merah,hijau,biru tentukan lah mana value yang true menuju ke portal ",
+        "default": "pilih salah satu dari ketiga warna ini (merah,biru,hijau).",
         "missed_goal": "Gunakan Command yang ada",
-        "how_to_play": "(....)"
+        "how_to_play": "Isi nilai variabel ‘Jembatan’ dengan sebuah warna,agar owl bisa berjalan menuju ke portal yang benar "
       },
       "initialCommand": "Jembatan = \"\"\n\nif Jembatan == \"biru\":\n    player.step(13)\n    player.turn(\"left\")\n    player.step(1)\n    Jembatan = 50\n    player.step(6)\nelif Jembatan == \"merah\":\n    player.step(7)\n    player.turn(\"left\")\n    player.step(1)\n    Jembatan = 50\n    player.step(6)\nelif Jembatan == \"hijau\":\n    player.step(19)\n    player.turn(\"left\")\n    player.step(1)\n    Jembatan = 50\n    player.step(6)\nelse:\n    player.turn(\"right\")\n    player.step(5)\n    player.turn(\"left\")\n    player.step(5)",
 
